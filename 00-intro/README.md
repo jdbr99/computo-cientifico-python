@@ -3,14 +3,12 @@
 [![Future Lab Logo](https://futurelab.mx/images/futurelab-landscape.png)](https://futurelab.mx)
 
 ## Instructores
-[David Bolaños](https://pps.whatsapp.net/v/t61.24694-24/55963535_343763222931344_2959439252439433216_n.jpg?oe=5D668961&oh=47c723c1f64b643cb4d2da36c1a680e0)
-Juan David Bolaños Rojas
-Estudiante de Licenciatura en Computación Matemática, DEMAT, UG.
+Juan David Bolaños Rojas  
+Estudiante de Licenciatura en Computación Matemática, DEMAT, UG.  
 :email: [juan.bolanos@cimat.mx](mailto://juan.bolanos@cimat.mx)
 
-[Armando López](https://pps.whatsapp.net/v/t61.24694-24/62459951_1113289932198911_7555059189781889024_n.jpg?oe=5D668961&oh=2ff8f810e4e8e41c5dc90693dae1a1ca)
-Jesús Armándo López García
-Estudiante de Licenciatura en Ingeniería Química, DCNE, UG.
+Jesús Armándo López García  
+Estudiante de Licenciatura en Ingeniería Química, DCNE, UG.  
 :email: [jalopezgarcia@ugto.mx](mailto://jalopezgarcia@ugto.mx)
 
 ## Link a la presentación
