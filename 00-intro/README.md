@@ -2,15 +2,6 @@
 
 [![Future Lab Logo](https://futurelab.mx/images/futurelab-landscape.png)](https://futurelab.mx)
 
-## Instructores
-Juan David Bolaños Rojas  
-Estudiante de Licenciatura en Computación Matemática, DEMAT, UG.  
-:email: [juan.bolanos@cimat.mx](mailto://juan.bolanos@cimat.mx)
-
-Jesús Armándo López García  
-Estudiante de Licenciatura en Ingeniería Química, DCNE, UG.  
-:email: [jalopezgarcia@ugto.mx](mailto://jalopezgarcia@ugto.mx)
-
 ## Link a la presentación
 [Presentación en Slides.com](https://slides.com/jdbr99/computo-cientifico-con-python/)
 
