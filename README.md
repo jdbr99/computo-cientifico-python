@@ -10,11 +10,11 @@ otras cosas de interés particular para el curso.
 # Instructores
 Juan David Bolaños Rojas  
 Estudiante de Licenciatura en Computación Matemática, DEMAT, UG.  
-:email: [juan.bolanos@cimat.mx](mailto://juan.bolanos@cimat.mx)
+:email: [juan.bolanos@cimat.mx](mailto:juan.bolanos@cimat.mx)
 
 Jesús Armándo López García  
 Estudiante de Licenciatura en Ingeniería Química, DCNE, UG.  
-:email: [jalopezgarcia@ugto.mx](mailto://jalopezgarcia@ugto.mx)
+:email: [jalopezgarcia@ugto.mx](mailto:jalopezgarcia@ugto.mx)
 
 -----
 
