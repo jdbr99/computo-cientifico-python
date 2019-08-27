@@ -18,6 +18,12 @@ Estudiante de Licenciatura en Ingeniería Química, DCNE, UG.
 
 -----
 
+# Temario
+El temario del curso se encuentra en el siguiente link:
+[Temario](https://docs.google.com/document/d/1hJr1XGQtj5pIcu-RiFxdYYAJLG_k5PDoVu_fJqZGfhE/edit?usp=sharing)
+
+-----
+
 # Listado de Directorios del Curso
 
 1. [Sesión de charla informativa](./00-intro)
