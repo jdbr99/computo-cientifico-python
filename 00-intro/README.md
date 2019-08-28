@@ -37,3 +37,26 @@ Una vez que la instalación finalice, en una terminal se debe escribir
 ```bash
 brew install python
 ```
+
+## Editores de Texto e IDE
+Es esencial para programar eficientemente, el conseguir un editor de texto plano
+o IDE con el que nos sintamos a gusto. 
+
+Escoger editores de texto sobre IDEs conlleva sus respectivas ventajas y 
+desventajas. Los editores de texto suelen ser más ligeros y simples de utilizar,
+pero el escoger utilizarlos implica que muy probablemente, estemos trabajando
+simultaneamente utilizando la terminal (aunque muchos de los editores de texto
+para programadores, están diseñados para permitir el uso de extensiones). Por 
+otro lado, utilizar un IDE nos proveerá desde un inicio con todas las herramientas
+que se requieren para programación y una interfáz optimizada para esto, pero
+suelen ser mucho más pesados con los recursos de la computadora.
+Existen varios editores de texto para programación e IDE's, pero los 
+recomendados para este curso son los siguientes:
++ Editores de Texto
+    - [Visual Studio Code](https://code.visualstudio.com/)
+    - [Sublime Text](https://www.sublimetext.com/)
+    - [Atom](https://atom.io/)
++ IDEs
+    - [Pycharm](https://www.jetbrains.com/pycharm/download/) *(Aunque existe la
+versión gratuita de comunidad, haciendo uso del `Github Student Developer Pack`
+se puede conseguir la versión profesional de forma gratuita.)*
