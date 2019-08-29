@@ -17,7 +17,7 @@ En este sitio, se debe ingresar al objeto del menú que dice *Downloads/Windows*
 Luego, se debe hacer click sobre *Download Windows x86-64 executable installer*
 Cuando acabe la descarga, debe ejecutarse el archivo y seguir las instrucciones
 presentadas, teniendo especial cuidado de asegurarse que la opción que dice 
-**"Add Python to PATH"**
+**"Add Python to PATH"** se encuentre seleccionada.
 ![Add Python to PATH Highlighted](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
 
 ### Linux
