@@ -26,4 +26,5 @@ El temario del curso se encuentra en el siguiente link:
 
 # Listado de Directorios del Curso
 
-1. [Sesión de charla informativa](./00-intro)
+1. [Sesión de charla informativa e instalación](./00-intro)
+2. [Primer sesión](./01-datos-elementales)
