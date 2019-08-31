@@ -5,12 +5,12 @@ Las diapositivas mostradas durante la sesión se encuentran
 [aquí](https://slides.com/jdbr99/computo-cientifico-con-python-3#/).
 
 ## Temas a Ver:
-[ ] ¿Qué es Python?
-[ ] ¿Por qué programar?
-[ ] Instalación de Python y `pip`
-[ ] Creación de Entornos Virtuales con `venv`
-[ ] Editores de texto e IDE recomendados
-[ ] Tipos de Datos Elementales en Python
+[] ¿Qué es Python?
+[] ¿Por qué programar?
+[] Instalación de Python y `pip`
+[] Creación de Entornos Virtuales con `venv`
+[] Editores de texto e IDE recomendados
+[] Tipos de Datos Elementales en Python
 
 ## Hello World
 La versión del clásico programa introductorio de programación, *Hello, world!*
