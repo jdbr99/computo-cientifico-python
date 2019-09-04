@@ -31,11 +31,32 @@ print()
 # Podemos hacer operaciones con ellos! :D
 print(my_int + my_float)
 
+# Los principales símbolos de operaciones son los siguientes:
+# + (suma)
+# - (resta)
+# * (multiplicación)
+# / (división)
+# ** (potenciación)
+# // (división de parte entera)
+# % (módulo, residuo de división entera)
+
 # También es útil, saber cambiar el tipo de dato con el que trabajamos
 age = input("¿Cuál es tu edad?: ")
 print(age)
 print(f"El tipo de age es {type(age)}")
 # Notemos que el tipo es `str`, por lo que sumarlo no resultaría en lo esperado
-# print(age + 1)
+# print(age + 1) <- Error!
 # Debemos hacer un 'cast' para que esto tenga sentido
 print(int(age) + 1)
+
+# Otra cosa muy importante, son las comparaciones
+result = 5 > 3
+print(result)
+
+# Los símbolos de comparaciones son los siguientes:
+# == (igualdad)
+# > (mayor a)
+# < (menor a)
+# >= (mayor o igual a)
+# <= (menor o igual a)
+# != (no igual a)
