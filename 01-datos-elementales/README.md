@@ -55,3 +55,12 @@ print(f"Hola, {name}")
 El archivo [tipos_elementales.py](./tipos_elementales.py) contiene ejemplos de
 cuáles son los tipos de datos elementales, algunas operacionesaritméticas y
 comparaciones en `Python 3`.
+
+## Ejecutar Programas con Python
+Para ejecutar programas, debemos navegar hasta el directorio donde guardamos el
+archivo de código e ingresar en la terminal:
+```bash
+python [Nombre del programa].py
+```
+(Para usuarios de *nix es probable que se requiera sustituir `python` por
+`python3` en el comando anterior).
