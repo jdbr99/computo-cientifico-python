@@ -32,9 +32,6 @@ En la anterior sesión, estudiamos los tipos de datos elementales:
 - `str`
 - `bool`
 
-
-
-# Repaso
 ## Operaciones Aritméticas
 También vimos las operaciones Aritméticas disponibles en `Python 3`
 - `+`
@@ -45,9 +42,6 @@ También vimos las operaciones Aritméticas disponibles en `Python 3`
 - `//`
 - `%`
 
-
-
-# Repaso
 ## Operaciones Lógicas
 - `==`
 - `<`
@@ -58,9 +52,6 @@ También vimos las operaciones Aritméticas disponibles en `Python 3`
 - `or`*
 - `not`*
 
-
-
-# Repaso
 ## Entrada y Salida de Texto
 Aprendimos también métodos básicos de *IO* en la terminal:
 - `input()`
@@ -77,8 +68,6 @@ age = age + 1
 print(age)
 ```
 
-
-
 # Ejercicio Sorpresa!
 Realizar un programa que convierta de grados *Celsius* -> *Fahrenheit*. La 
 fórmula es:
@@ -91,9 +80,7 @@ $$
 2. Apliquen la fórmula
 3. Impriman el resultado
 
-
-
-# [Solución:](src/c_f.py)
+## [Solución:](src/c_f.py)
 ```python
 print("Convertidor de ºC -> ºF")
 print("Ingrese cantidad de ºC")
@@ -103,8 +90,6 @@ f = (c * (9/5)) + 32
 print(f"{c}ºC = {f}ºF")
 ```
 
-
-
 # RTFM
  El término *RTFM* es un acrónimo de* **R**ead **T**he **F**unny **M**anual*.  
 En programación, una parte muy importante es aprender a encontrar
@@ -113,8 +98,6 @@ La documentación standard de `Python 3` se encuentra en [https://docs.python.or
 Ahí se pueden encontrar todas las especificaciones técnicas de todo en 
 `Python 3`. Esto es especialmente útil para encontrar cómo usar *tipos de datos*,
 *métodos*, *clases*, *funciones*, etc.  
-
-
 
 # Condicionales
 A veces, requerimos que ciertas partes del código sólo se ejecuten si se cumple 
@@ -130,9 +113,6 @@ if age > 18:
   print("Puedes pasar")
 ```
 
-
-
-# Condicionales 
 ## `else`
 Cuando sólo queremos que algo suceda si no sucedió la condición que hubiése
 desencadenado la ejecución del código de un `if`, usamos `else`:
@@ -145,9 +125,6 @@ else:
   print("Estás muy chavo!")
 ```
 
-
-
-# Condicionales
 ## `elif`
 Cuando tenemos más de una condición **mutuamente exclusivas**, utilizamos `elif`
 cuantas veces sea necesario:
@@ -164,16 +141,11 @@ else:
   print("Estás muy chavo!")
 ```
 
-
-
 # Colecciones de Datos
 A veces, deseamos utilizar colecciones, es decir, utilizar un tipo de dato que
 contenga más de un valor para almacenar valores con alguna relación. A 
 continuación veremos las colecciones de datos disponibles en `Python 3`
 
-
-
-# Colecciones de Datos
 ## [`list`](https://docs.python.org/3/library/stdtypes.html#list)
 En casos en los que queremos guardar varios valores bajo el mismo nombre 
 utilizaremos *listas* o `list`:
@@ -197,9 +169,6 @@ intervalo `[a,b)` en:
 pepe_grades[2:5]
 ``` 
 
-
-
-# Colecciones de Datos
 ## [`dict`](https://docs.python.org/3/library/stdtypes.html#dict)
 En casos en los que queremos asociar una colección de pares *llave: valor*
 utilizamos *diccionarios* o `dict`:
@@ -215,9 +184,6 @@ pepe_grades["math"]
 
 > Los valores de los `dict` pueden ser de cualquier tipo. ¡Incluso otro `dict`!
 
-
-
-# Colecciones 
 ## Tuplas
 Las tuplas o `tuple` son casi completamente iguales a las listas, salvo que son
 *inmutables*, es decir, sus valores no pueden cambiar.
@@ -239,9 +205,6 @@ print(my_tuple)
 print(my_lst)
 ```
 
-
-
-# Colecciones
 ## [`set`](https://docs.python.org/3/library/stdtypes.html#set)
 Los conjuntos son uno de los tipos menos utilizados. Estos son una estructura
 matemática en donde elementos repetidos son considerados como el mismo elemento.
