@@ -178,13 +178,13 @@ pepe_grades = {math: 10, literature: 5, composition: 6.5, philosophy:3}
 ```
 Para acceder a los elementos, lo hacemos usando la *llave* del par deseado:
 ```python
-# Acceder a la calificacioón de `math`
+# Acceder a la calificación de `math`
 pepe_grades["math"]
 ```
 
 > Los valores de los `dict` pueden ser de cualquier tipo. ¡Incluso otro `dict`!
 
-## Tuplas
+## [Tuplas](https://docs.python.org/3/library/stdtypes.html#tuple)
 Las tuplas o `tuple` son casi completamente iguales a las listas, salvo que son
 *inmutables*, es decir, sus valores no pueden cambiar.
 ```python
