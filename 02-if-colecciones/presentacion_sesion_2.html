@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cómputo Científico con Python</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="metropolis.css">
+    <link rel="stylesheet" href="metropolis-fonts.css">
+  </head>
+  <body>
+    <textarea id="source">
+
+class: title-slide
+
+# Cómputo Científico con Python
+
+---
+
+# Segunda Sesión: Control de Flujo
+1. Repaso
+  1. Tipos de Datos Elementales
+  2. Operaciones Aritméticas
+  3. Operaciones Lógicas
+  4. *IO*
+  5. *Casting*
+2. RTFM
+3. Condicionales
+  1. `if`
+  2. `elif`
+  3. `else`
+4. Colecciones de Datos
+  1. Listas
+  2. Diccionarios
+  3. Tuplas
+  4. Conjuntos
+
+---
+
+# Repaso 
+## Tipos de Datos Elementales
+En la anterior sesión, estudiamos los tipos de datos elementales:
+- `int` 
+- `float`
+- `complex`
+- `str`
+- `bool`
+
+---
+
+# Repaso
+## Operaciones Aritméticas
+También vimos las operaciones Aritméticas disponibles en `Python 3`
+- `+`
+- `-`
+- `*`
+- `/`
+- `**`
+- `//`
+- `%`
+
+---
+
+# Repaso
+## Operaciones Lógicas
+- `==`
+- `<`
+- `>`
+- `<=`
+- `>=`
+- `and`*
+- `or`*
+- `not`*
+
+---
+
+# Repaso
+## Entrada y Salida de Texto
+Aprendimos también métodos básicos de *IO* en la terminal:
+- `input()`
+- `print()`
+- `f-str`
+
+## Casting
+Y por último, vimos cómo hacer casting de tipos:
+Ej. cast de `str` -> `float`:
+```python
+age = input("¿Cuál es tu edad?: ")
+age = float(age)
+age = age + 1
+print(age)
+```
+
+---
+
+# Ejercicio Sorpresa!
+Realizar un programa que convierta de grados *Celsius* -> *Fahrenheit*. La 
+fórmula es:
+$$
+  (C^\circ * \frac{9}{5}) + 32 = F^\circ
+$$
+
+## Cómo hacerlo:
+1. Pidan entrada al usuario (No olviden hacer *casting*)
+2. Apliquen la fórmula
+3. Impriman el resultado
+
+---
+
+# [Solución:](src/c_f.py)
+```python
+print("Convertidor de ºC -> ºF")
+print("Ingrese cantidad de ºC")
+c = input("> ")
+c = float(c)
+f = (c * (9/5)) + 32
+print(f"{c}ºC = {f}ºF")
+```
+
+---
+
+# RTFM
+ El término *RTFM* es un acrónimo de* **R**ead **T**he **F**unny **M**anual*.  
+En programación, una parte muy importante es aprender a encontrar
+documentación y leerla.  
+La documentación standard de `Python 3` se encuentra en [https://docs.python.org/3/](https://docs.python.org/3/)  
+Ahí se pueden encontrar todas las especificaciones técnicas de todo en 
+`Python 3`. Esto es especialmente útil para encontrar cómo usar *tipos de datos*,
+*métodos*, *clases*, *funciones*, etc.  
+
+---
+
+# Condicionales
+A veces, requerimos que ciertas partes del código sólo se ejecuten si se cumple 
+alguna condición. Para esto utilizamos condicionales.
+
+## `if`
+Usamos `if` para ejecutar código cuando el resultado de la evaluación pasada al
+`if` es `True`:
+```python
+age = input("¿Cuál es tu edad?\n> ")
+age = int(age)
+if age > 18:
+  print("Puedes pasar")
+```
+
+---
+
+# Condicionales 
+## `else`
+Cuando sólo queremos que algo suceda si no sucedió la condición que hubiése
+desencadenado la ejecución del código de un `if`, usamos `else`:
+```python
+age = input("¿Cuál es tu edad?\n> ")
+age = int(age)
+if age > 18:
+  print("Puedes pasar")
+else:
+  print("Estás muy chavo!")
+```
+
+---
+
+# Condicionales
+## `elif`
+Cuando tenemos más de una condición **mutuamente exclusivas**, utilizamos `elif`
+cuantas veces sea necesario:
+```python
+age = input("¿Cuál es tu edad?\n> ")
+age = int(age)
+if age > 18 and age < 80:
+  print("Puedes pasar")
+elif age >= 80 and age < 120:
+  print("Adelante, anciano")
+elif age >= 120:
+  print("- お前はもう死んでいる!\n- なに?!")
+else:
+  print("Estás muy chavo!")
+```
+
+---
+
+# Colecciones de Datos
+A veces, deseamos utilizar colecciones, es decir, utilizar un tipo de dato que
+contenga más de un valor para almacenar valores con alguna relación. A 
+continuación veremos las colecciones de datos disponibles en `Python 3`
+
+---
+
+# Colecciones de Datos
+## [`list`](https://docs.python.org/3/library/stdtypes.html#list)
+En casos en los que queremos guardar varios valores bajo el mismo nombre 
+utilizaremos *listas* o `list`:
+```python
+# Declarando una lista
+pepe_grades = [10, 5, 6.5, 3]
+``` 
+para acceder al 2º elemento de `pepe_grades` usamos
+```python
+# Acceder al 5
+pepe_grades[1]
+```
+
+> Notemos que Python es un lenguage *indexado desde 0*  
+
+También podemos usar *slicing* para acceder a elementos especificados por el
+intervalo `[a,b)` en:
+
+```python
+# Acceder a calificaciones 2 a 4
+pepe_grades[2:5]
+``` 
+
+---
+
+# Colecciones de Datos
+## [`dict`](https://docs.python.org/3/library/stdtypes.html#dict)
+En casos en los que queremos asociar una colección de pares *llave: valor*
+utilizamos *diccionarios* o `dict`:
+```python
+# Declarando un diccionario
+pepe_grades = {math: 10, literature: 5, composition: 6.5, philosophy:3}
+```
+Para acceder a los elementos, lo hacemos usando la *llave* del par deseado:
+```python
+# Acceder a la calificacioón de `math`
+pepe_grades["math"]
+```
+
+> Los valores de los `dict` pueden ser de cualquier tipo. ¡Incluso otro `dict`!
+
+---
+
+# Colecciones 
+## Tuplas
+Las tuplas o `tuple` son casi completamente iguales a las listas, salvo que son
+*inmutables*, es decir, sus valores no pueden cambiar.
+```python
+# Declarar una tupla y una lista
+my_tuple = (2, 3)
+my_lst = [2, 3]
+
+# Imprimir sus segundos valores
+print(my_tuple[1])
+print(my_lst[1])
+
+# Modificar sus segundos valores
+my_tuple[1] = 99
+my_lst[1] = 99
+
+# Imprimirlos nuevamente
+print(my_tuple)
+print(my_lst)
+```
+
+---
+
+# Colecciones
+## [`set`](https://docs.python.org/3/library/stdtypes.html#set)
+Los conjuntos son uno de los tipos menos utilizados. Estos son una estructura
+matemática en donde elementos repetidos son considerados como el mismo elemento.
+```python
+# Declarando un conjunto
+my_set = {1, 2, 5, 20, 4, 4, 3, 5} # my_set = {1, 2, 3, 4, 5, 20}
+# Declarando un conjunto a partir de una lista
+my_set = set(pepe_grades)
+```
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+
+      // Setup MathJax
+      MathJax.Hub.Config({
+          tex2jax: {
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+          }
+      });
+
+      MathJax.Hub.Configured();
+    </script>
+  </body>
+</html>
