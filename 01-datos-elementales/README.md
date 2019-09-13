@@ -28,7 +28,7 @@ Los principales comandos de la terminal de windows son:
 - `cd [Nombre del directorio]` - Ingresa al directorio especificado
 - `dir` - Imprime la estructura del directorio actual
 - `mkdir [Nombre del directorio]` - Crea un directorio con el nombre especificado
-- `rmdir [Nombre del directorio]` - Borra el directorio especificado
+- `rmdir [Nombre del directorio]` - Borra el directorio especificado  
 [Este cortovideo]() contiene un poco más información sobre los comandos mostrados.
 
 ### Mac OS X en adelante
