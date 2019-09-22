@@ -207,7 +207,7 @@
       # Acceder a calificaciones 2 a 4
       pepe_grades[2:5]
       ``` 
-
+      
       ---
 
       # Colecciones de Datos
@@ -261,6 +261,56 @@
       my_set = {1, 2, 5, 20, 4, 4, 3, 5} # my_set = {1, 2, 3, 4, 5, 20}
       # Declarando un conjunto a partir de una lista
       my_set = set(pepe_grades)
+      ```
+
+      ---
+
+      # Ciclos
+      ## `for`
+      Muy seguido necesitaremos repetir la ejecución de código una cantidad determinada
+      de veces. Para esto utilizamos ciclos.  
+      El ciclo `for` lo utilizamos para ejecutar código por cada iteración sobre una 
+      colección:
+      ```python
+      my_list = [1, 2, 3, 4, 5]
+      for item in my_list:
+        print(item)
+      ```
+
+      ---
+
+      # Ciclos
+      ## `while`
+      Cuando queremos ejecutar código mientras una condición se cumpla, es cuando utilizamos
+      `while`:
+      ```python
+      i = 0
+      while(i < 10):
+        print(i)
+        i += 1
+      ```
+
+      ---
+
+      # Ciclos
+      ## _`list` comprehension_
+      Una forma elegante de generar listas, es combinando los ciclos con funciones 
+      generadoras. A esto se le llama _list comprehension_. Su sintaxis es la 
+      siguiente:
+      ```python
+      # Contiene a los cuadrados de los números del 0 al 29
+      my_list = [x**2 for x in range(30)]
+      ```
+
+      ---
+
+      # Ciclos
+      ## _`dict` comprehension_
+      Existe también el equivalente de _list comprehension_ para diccionarios. Su
+      sintaxis es muy similar, de hecho, es el equivalente para diccionarios:
+      ```python
+      # Contiene la relación x a x^2 de los números del 0 al 29
+      my_dict = {x: x**2 for x in range(30)}
       ```
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript"></script>
