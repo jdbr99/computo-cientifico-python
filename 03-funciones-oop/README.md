@@ -5,17 +5,17 @@ Las diapositivas mostradas durante esta sesión se encuentran [aquí.](diapositi
 
 ## Temario
 1. [Iteradores](#iteradores)
-2. [Funciones](#funciones)
+2. [Funciones](#Funciones)
 	1. [Estructura](#estructura)
 	2. [Argumentos](#argumentos)
-	3. [`return`](#`return`)
-	4. [`*args`](#`*args`)
-	5. [`**kwargs`](#`**kwargs`)
+	3. [`return`](#return)
+	4. [`*args`](#*args)
+	5. [`**kwargs`](#**kwargs)
 3. [OOP](#oop)
 	1. [Clases](#clases)
 	2. [Métodos](#métodos)
-	3. [`self`](#`self`)
-	4. [Constructor `__init__`](#constructor-`__init__`)
+	3. [`self`](#self)
+	4. [Constructor `__init__`](#constructor-__init__)
 	5. [Sobrecarga de operadores](#sobrecarga-de-operadores)
 4. [Ejemplos](#ejemplos)
 
