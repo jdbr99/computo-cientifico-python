@@ -23,3 +23,5 @@ El temario del curso se encuentra en el siguiente link:
 1. [Sesión de charla informativa e instalación](00-intro)
 2. [Primer sesión](01-datos-elementales)
 3. [Segunda sesión](02-if-colecciones)
+4. [Tercera sesión](03-funciones-oop)
+5. [Primer EXAMEN](EXAMEN-01)
