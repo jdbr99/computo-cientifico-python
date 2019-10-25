@@ -30,7 +30,7 @@ A continuación, se enlistan los problemas a resolver:
 7. Crear una figura de 2 filas y 3 columnas donde grafiquen en cada _subplot_ una materia diferente (son libres de escoger las 6 que quieran, pero deben ser diferentes materias):
     - Relación de años y porcentajes de licenciaturas de alguna materia otorgadas a hombres y mujeres en colores rojo y azul respectivamente
     - Leyenda en la última gráfica
-    - Configurar en limite de los ejes x e y entre 0-100
+    - Configurar el limite de los ejes x e y entre 0-100
     - Utilizar el método de radio tinta-información visto en clase para mejorar la apariencia de sus gráficas
 8. Escribir una conclusión del estudio que acaban de realizar.
 
