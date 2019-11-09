@@ -1,4 +1,4 @@
-# Primer Examen 
+# Segundo Examen 
 ## Instrucciones
 Ingresen a la [carpeta de drive](https://drive.google.com/drive/folders/1G3lkuQIdK6g_Ut3DEqa0oj1FO8oTwAL7?usp=sharing) y dentro de la carpeta de su nombre creen la carpeta "examen-2".  
 Asegúrense de editar los permisos de acceso de sus archivos para
